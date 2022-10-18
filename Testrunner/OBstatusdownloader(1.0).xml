@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OBStatus" verbose="3">
+    <test name=" Downloadreports">
+        <classes>
+            <class name="Scripts.PPMS" />
+            <class name="Scripts.Arvind" />
+            <class name="Scripts.MISS" />
+            <class name="Scripts.Fieldlytics" />
+            <class name="Scripts.StoreWorks" />
+            <class name="Scripts.Threepoint" />
+            <class name="Scripts.Vendo" />
+            <class name="Utils.EmailUtils" />
+        </classes>
+    </test>
+</suite>
+
+
